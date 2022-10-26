@@ -1,11 +1,7 @@
 <?php
-  //Se incluye la configuración de conexión a datos en el
-  //SGBD: MariaDB.
   require_once 'model/database.php';
 
-  //Para registrar productos es necesario iniciar los proveedores
-  //de los mismos, por ello la variable controller para este
-  //ejercicio se inicia con el 'proveedor'.
+
   $controller = 'index';
 
   // Todo esta lógica hara el papel de un FrontController
